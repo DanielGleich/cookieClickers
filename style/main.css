@@ -1,0 +1,22 @@
+body {
+	background: radial-gradient(#00aeff,#075689);
+	color: white;
+	font-family: Comic Sans MS;
+	margin: auto;
+	text-align: center;
+}
+div {
+	font-size:20pt;
+}
+th, td{
+	border: solid 1px white;
+	padding: 0.2em 0.5em;
+}
+table { 
+	border-collapse: collapse;
+	margin:auto;
+	}
+.shopItem:hover
+{
+	background-color: #00354e;
+}
