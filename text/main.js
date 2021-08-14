@@ -4,7 +4,6 @@ cookie.addEventListener("click", function() {cookieClick();} );
 var globalCookieCount= 0;
 var globalClickValue= 1;
 
-
 function cookieClick()
 {
 	addCookie(globalClickValue);
@@ -34,6 +33,6 @@ function buildButton(name, price, clickValue,timeValue,count)
 function printAllShopItems()
 {
 	for (var i = 0; i < upgrades.length; i++) {
-		upgrades[i].view()	
+		upgrades[i].initButton()	
 	}
 }
