@@ -5,6 +5,21 @@ body {
 	margin: auto;
 	text-align: center;
 }
+
+img {
+		transition: transform 1s ease-out;
+		transform: scaleX(1) scaleY(1);
+	}
+	
+.click {
+	transform: scaleX(0.5) scaleY(0.5);
+	
+}
+	
+#cookieCage {
+	min-height: 300px;
+	max-height: 300px;
+}
 div {
 	font-size:20pt;
 }

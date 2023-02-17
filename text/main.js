@@ -3,11 +3,15 @@ cookie.addEventListener("click", function() {cookieClick();} );
 
 var globalCookieCount= 0;
 var globalClickValue= 1;
+var animation = new Animation();
 
 function cookieClick()
 {
 	addCookie(globalClickValue);
 	printCookieCount();
+	document.querySelector("#cookie").classList.add("click");
+	setTimeout(()=> {document.querySelector("img").classList.remove("click");}, 100)
+	
 }
 
 function addCookie( value )
